@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dnsleaker"
+version = "0.1.0"
+description = ""
+authors = ["x404xx <ghost.py@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.8.0"
+dnspython = "^2.6.1"
+aiohttp = "^3.10.5"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
